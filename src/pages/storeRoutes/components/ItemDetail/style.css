@@ -1,0 +1,19 @@
+.itemDetail {
+  padding: 5vh;
+}
+
+.itemDetailInfo {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: stretch;
+}
+.itemDetailInfo button {
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  margin: .15rem;
+  font-size: medium;
+  font-weight: bold;
+}

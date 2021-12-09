@@ -1,0 +1,56 @@
+.nav {
+  padding-inline-start: 0px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 100%;
+  background-color: beige;
+  text-align: center;
+}
+
+.nav-item {
+  padding: 4%;
+  align-content: center;
+  list-style: none;
+}
+
+.nav-item-brand {
+  background-color: #8fa382;
+}
+
+.brand-header {
+  padding: 0;
+}
+
+.nav-link {
+  padding: 0;
+  color: #8fa382;
+}
+
+.nav-link:hover {
+  color: coral;
+  text-decoration: none;
+}
+
+.logo {
+  height: 150px;
+  padding: 1rem;
+}
+
+.cartBtn {
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.cartBtn img {
+  height: 30px;
+  width: 30px;
+}
+
+.cartBtn span{
+  color: white
+}
+

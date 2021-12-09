@@ -1,0 +1,31 @@
+.itemCart {
+  border-radius: 30px;
+  padding: 1%;
+  margin: 1%;
+  background-color: #8fa382;
+  align-items: center;
+}
+.itemCart img {
+  width: 100px;
+}
+.itemCart button {
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: .5rem;
+  margin: .15rem;
+  font-size: medium;
+  font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .itemCart {
+    font-size: small;
+  }
+  .itemCart h3 {
+    font-size: x-large;
+  }
+  .itemCart button {
+    font-size: small;
+  }
+}

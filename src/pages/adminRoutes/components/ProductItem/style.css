@@ -1,0 +1,21 @@
+.itemAdminView {
+  border-radius: 30px;
+  padding: 1%;
+  margin: 1%;
+  background-color: #8fa382;
+  align-items: center;
+  overflow: hidden;
+}
+.itemAdminView button {
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: .5rem;
+  margin: .15rem;
+  font-size: medium;
+  font-weight: bold;
+}
+.itemAdminView img {
+  width: 50px;
+  border-radius: 50%;
+}

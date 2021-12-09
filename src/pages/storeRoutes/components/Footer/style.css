@@ -1,0 +1,16 @@
+.footer {
+  background-color: beige;
+  padding-top: 5vh;
+  margin-top: 3vh;
+  position: relative;
+}
+.footer p {
+  margin-bottom: 0%;
+}
+.footer ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+.copyright {
+  color:lightslategray;
+}

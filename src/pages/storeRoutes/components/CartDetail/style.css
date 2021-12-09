@@ -1,0 +1,32 @@
+.CartDetail {
+  background-color: beige;
+  align-items: center;
+  text-align: center;
+}
+.CartDetail button {
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: .5rem;
+  margin: .15rem;
+  font-size: medium;
+  font-weight: bold;
+}
+.CartDetail img {
+  width: 100px;
+}
+.CartMessage {
+  font-size: large;
+}
+.CartMessage span {
+  font-family: 'Allura', cursive;
+  font-size: xx-large;
+}
+.totalCart {
+  background-color: #8fa382;
+  
+}
+.totalCart span {
+  font-weight: bold;
+  font-size: larger;
+}

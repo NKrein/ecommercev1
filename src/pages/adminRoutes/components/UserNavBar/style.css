@@ -1,0 +1,21 @@
+.brandTitle {
+  font-family: 'Allura', cursive;
+  color:#8fa382;
+  margin: 0;
+}
+.AdminNav {
+  min-height: 10vh;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 100%;
+  background-color: beige;
+  text-align: center;
+
+}
+.navBtn {
+  color: beige;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+}

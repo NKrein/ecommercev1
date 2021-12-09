@@ -1,0 +1,9 @@
+.adminFooter {
+  height: 5vh;
+  background-color: beige;
+  position: relative;
+}
+.adminFooter p {
+  margin-bottom: 0%;
+  color: #8fa382;
+}

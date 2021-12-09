@@ -1,0 +1,10 @@
+.specialOrderItemCard{
+  background-color: #8fa382;
+  margin-bottom: 2vh;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  border-radius: 2vh;
+}
+.specialOrderItemCard p {
+  margin-bottom: 0;
+}

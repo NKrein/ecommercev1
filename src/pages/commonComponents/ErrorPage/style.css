@@ -1,0 +1,16 @@
+.errorPage {
+  display: grid;
+}
+.errorPage h2 {
+  font-family: 'Allura', cursive;
+  font-size: xx-large;
+}
+.errorPage button {
+  margin: 2%;
+  border: none;
+  border-radius: 15px;
+  background-color:#8fa382;
+  color: beige;
+  padding: 1rem;
+  font-weight: bold;
+}

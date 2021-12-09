@@ -1,0 +1,19 @@
+.orderProduct {
+  background-color: beige;
+  border-radius: 30px;
+  padding-bottom: 3vh;
+}
+.orderProduct img {
+  width: 100px;
+  border-radius: 50%;
+}
+.orderInfo {
+  display: grid;
+  align-self: auto;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+.orderSend {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
