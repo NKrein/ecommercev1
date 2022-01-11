@@ -18,7 +18,7 @@ const ItemDetail = ({ product, onAdd, onSub, count, handlerAdd, handlerRemove, g
           <p>Medida: <b>{product.category}</b></p>
           <p>Descripción: {product.description}</p>
           <p>Precio: <b>AR$ {product.price}</b></p>
-          <p>Stock: {product.stock? <b>{product.stock}</b> : <b>No disponible</b>} </p>
+          <p>Stock: {product.stock > 0? <b>{product.stock}</b> : <b>No disponible</b>} </p>
           <p>Id: {product.id}</p>
           {
             (getCount || isInCart(product.id)) ?
@@ -28,7 +28,7 @@ const ItemDetail = ({ product, onAdd, onSub, count, handlerAdd, handlerRemove, g
                 <Link to={'/'}><button>Quiero más!</button></Link>
                 <button onClick={handlerRemove}>Quitar del Carrito</button>
               </div> :
-              product.stock ?
+              product.stock > 0 ?
                 <div>
                   <Counter stock={product.stock} onAdd={onAdd} onSub={onSub} count={count} />
                   <button onClick={handlerAdd}>Agregar al carrito</button>
