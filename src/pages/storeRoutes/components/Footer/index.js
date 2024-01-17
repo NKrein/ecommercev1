@@ -29,7 +29,7 @@ const Footer = ({ logo, linkInstagram, linkFacebook, linkWhatsapp, linkEmail }) 
           <Link to={'/'}><img className='logo' src={logo} alt='Logo'/></Link>
           </Col>
           <Col xs={12} sm={12} md={12}>
-            <p className='copyright'>Todos los derechos reservados | Copyright © 2021 Dharma Diseños | <Link to={{ pathname: 'https://nkrein.com' }} className='currentLink' target="_blank">Desarrollo por NKrein</Link></p>
+            <p className='copyright'>Todos los derechos reservados | Copyright © 2021 Dharma Diseños | <a href='https://nkrein.vercel.app' className='currentLink' target="_blank">Desarrollo por NKrein</a></p>
           </Col>
         </Row>
       </Container>
